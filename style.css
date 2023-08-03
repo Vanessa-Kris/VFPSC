@@ -1,0 +1,52 @@
+/* nav {
+    background-color: transparent !important;
+} */
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByYWlzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.headertext {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.welcome {
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name{
+    padding: 30px;
+    color: #F06A24;
+    font-weight: 900;
+}
+
+.cop {
+    font-size: 130px;
+    letter-spacing: 0;
+    font-weight: 900;
+    padding: .10em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   animation: aitf 80s linear infinite;
+  }
+
+  @media screen and (max-width: 900px) {
+    .cop{
+        font-size: 100px; 
+    }
+    .headertext {
+        padding-top: 150px;
+    }
+  }
+
+
