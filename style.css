@@ -1,3 +1,4 @@
+
 .banner{
     padding-left: 50px;
     background-color: #15192C;
@@ -23,7 +24,7 @@ margin-top: 30px;
 }
 
 .btn {
-   background-color: #edbc2a;
+   background-color: #EDBC2A;
 }
 .chair {
     width: 400px;
@@ -50,6 +51,7 @@ margin-top: 30px;
     -webkit-text-fill-color: transparent;
    animation: aitf 80s linear infinite;
   }
+
 
   @media screen and (max-width: 900px) {
     .cop{
