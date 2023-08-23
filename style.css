@@ -5,6 +5,9 @@ a {
     padding-left: 50px;
     background-color: #15192C;
 }
+.shop{
+    background-color: #15192C;
+}
 
 .title {
     color: #f1eded;
@@ -54,14 +57,51 @@ margin-top: 30px;
    animation: aitf 80s linear infinite;
   }
 
+  .contact {
+    width: 500px;
+  }
+
+  .contactheader {
+    font-size: 50px;
+    text-decoration: underline;
+  }
 
   @media screen and (max-width: 900px) {
+    .banner{
+        padding-left: 20px;
+    }
+    .title {
+        font-size: 80px;
+        
+    }
+    .subtitle {
+        margin-top: 80px;
+    }
+    .chair {
+        width: 300px;
+    }
+    .subheader {
+        margin-top: 80px;
+        font-size: 50px; 
+    }
+    .third {
+        margin-left: 50px;
+    }
     .cop{
         font-size: 100px; 
     }
     .headertext {
         padding-top: 150px;
     }
+    .contact {
+        width: 300px;
+        padding: 0;
+        margin: 0;
+      }
+      .contactheader {
+        font-size: 30px;
+        padding-top: 15px;
+      }
   } 
 
 
